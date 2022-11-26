@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>9th practical</title>
+    <style type="text/css">
+        p {
+            background-color: blue;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+        }
+
+        h1 {
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body style="background-color:cyan ;">
+    <h1>Example of Embedded CSS</h1>
+    <p>This is an Example of embedded css.In embedded css the style is applied on the whole web page.
+        It is done on the head section of the web page. It is also called as internal CSS.
+        It will be only applied to this webpage.The styling done in this page will not be reflected on the other pages.
+    </p>
+    <h1 style="background-color:red ;font-family:cursive">This is an example of Inline CSS</h1>
+    <P style="background-color: green; font-size:xx-large; font-family: Arial, Helvetica, sans-serif;">This is an example of Inline CSS. 
+         Inline css is used to apply a unique style for a single element. It Overrides any external or embedded style.</P>
+</body>
+
+</html>
