@@ -2,6 +2,7 @@
 <html>
 
     <head>
+       <title>3rd Practical</title>
       <style>
          table {
                  border: 1px solid black;
