@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  	   <title>Fourth Practical</title>
+      <link rel="stylesheet" href="4thp.css">
+  </head>
+  <body>
+	    <header>
+			<h1>This is the information about data structures, alogrithm and  html</h1>
+        </header>
+        <nav>
+            <a href="1stp.html">other project 1</a> |
+            <a href="2ndp.html">other project 2</a> |
+            <a href="3rdp.html">other project 3</a> |
+            <a href="5thp.html">other project 4</a>
+         </nav>
+         <section>
+            <h2>Data Structure</h2>
+              <p> Data Structure is a data organization and
+                  storage format that enables efficient access
+                  and modification.
+              </p>
+    
+         </section>
+         <section>
+            <h2>Algorithm</h2>
+             <p>A process or set of rules to be followed
+               in calculations or other problem-solving
+               operations, especially by a computer.
+             </p>
+         </section>
+         <article>
+            <h2>HTML</h2>
+                 <p>HTML5 is the newest version of HTML, only recently
+                     gaining partial support by the makers of web browsers.
+                 </p>
+         </article>
+         <aside>
+            <img src="html.png"><right>
+         </aside>
+         <footer>
+          
+            <p>created by: Adam Ansari</p>
+            <p>Contact: <a href="bcaedu.in">bca edu</a>.
+            </p>
+         </footer>
+  </body>
+</html>
+
+//css part
+
+h1{
+    color: blue;
+    Text-align:center;
+    margin-bottom:0px;
+    }
+    p {
+    font-size:25px;
+    text-align:left;
+    margin-top:0px;
+    }
+nav{
+    Text-align:center;
+   }  
+ p{
+   font-size: 22px;
+ }  
+ img{
+    height: 20%;
+    width: 20%;
+ }     
