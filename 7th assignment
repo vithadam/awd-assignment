@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>seventh practical</title>
+      <link rel="stylesheet" href="7th.css">
+  </head>
+  <body>
+      <h1>Example of Child Selector, Sibling Selector and Universal Selector</h1>
+      <h3>The child selector is used to select all elements that are children of a specified element.
+          In the example below the elements in the div tag will be affected  </h3>
+      <div>
+          <p>paragraph 1 in the div tag.</p>
+          <p>paragraph 2 in the div tag.</p>
+            <section>
+              <p>paragraph 3 in the div tag.(inside section tag)</p> 
+            </section>
+          <p>paragraph 4 in the div tag.</p>  
+      </div> 
+      <p>paragraph 5 not in the div tag. it is just after div tag</p>
+      <h3>The sibling selector is used to select element which is directly after another specific element.
+          In the example above p tag directly after div tag will be affected. 
+      </h3>
+      <h3>Universal selector selects all the elements in the body. Here the font of all the elements is changed.</h3>
+      <p>paragraph 6 not in the div tag.</p>   
+  </body>
+</html>
+
+//css part
+
+div > p{
+    background-color: gold;
+}
+div + p{
+    background-color: blue;
+}
+*{
+    font-family: cursive;
+}
