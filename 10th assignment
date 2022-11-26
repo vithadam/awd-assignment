@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Tenth Practical</title>
+</head>
+
+<body style="background-color:cyan;text-align:center">
+   <h1 style="font-family: cursive;">Select a Hobby</h1>
+    <label for="c1"> <input type="checkbox" name="Hobby" value="Music" id="c1">Music</label>
+    <label for="c2"><input type="checkbox" name="Hobby" value="Dance" id="c2"> Dance</label>
+    <label for="c3"><input type="checkbox" name="Hobby" value="sports" id="c3">sports</label>
+    <p>
+        <button id="btn">Get selected Hobbies</button>
+    </p>
+
+    <script>
+        const btn = document.querySelector('#btn');
+        btn.addEventListener('click', (event) => {
+            let checkboxes = document.querySelectorAll('input[name="Hobby"]:checked');
+            let values = [];
+            checkboxes.forEach((checkbox) => 
+            {
+                values.push(checkbox.value);
+            });
+            alert(values);
+        });    
+      </script>
+  </body>
+</html>
