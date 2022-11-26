@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <title>First Practical</title>
+      <style>h1{text-align: center;}</style>
+  </head>
+
+  <body style="background-color:blue; color: gold;font-size: 25px;">
+
+        <h1>Example of Nested Lists</h1>
+        <h3>Programming languages in BCA Course</h3>
+        <ul>
+            <li>1st Year</li>
+            <ul>
+                <li>C programming</li>
+                <li>C++ programming</li>
+            </ul>
+            <li>2nd year</li>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JAVA</li>
+           </ul>
+            <li>3rd Year</li>
+            <ul>
+                <li>python</li>
+            </ul>
+      
+      </ul>
+  </body>
+</html>
